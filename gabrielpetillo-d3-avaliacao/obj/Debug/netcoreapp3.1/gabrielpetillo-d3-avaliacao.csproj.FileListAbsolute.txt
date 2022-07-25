@@ -1,0 +1,13 @@
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.exe
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.deps.json
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.runtimeconfig.json
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.runtimeconfig.dev.json
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.dll
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.pdb
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.csproj.AssemblyReference.cache
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.AssemblyInfoInputs.cache
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.AssemblyInfo.cs
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.csproj.CoreCompileInputs.cache
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.dll
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.pdb
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.genruntimeconfig.cache
