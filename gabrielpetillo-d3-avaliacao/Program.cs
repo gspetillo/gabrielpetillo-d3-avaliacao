@@ -72,6 +72,8 @@ namespace gabrielpetillo_d3_avaliacao
 
                                 } while (menuAction != "1" && menuAction != "2");
                                 user.Create(user, "Logged out");
+                                AnsiConsole.Markup("\n[red] Deslogando usuário... [/]\n");
+                                Thread.Sleep(2000);
                                 Console.Clear();
                             }
                             else
