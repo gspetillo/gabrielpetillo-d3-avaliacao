@@ -11,3 +11,11 @@ C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-aval
 C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.dll
 C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.pdb
 C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.genruntimeconfig.cache
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\obj\Debug\netcoreapp3.1\gabrielpetillo-d3-avaliacao.csproj.CopyComplete
+C:\Users\gspet\OneDrive\Documentos\Cromai\Desenvolvimento\gabrielpetillo-d3-avaliacao\gabrielpetillo-d3-avaliacao\bin\Debug\netcoreapp3.1\Spectre.Console.dll

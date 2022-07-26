@@ -1,18 +1,21 @@
 ﻿using gabrielpetillo_d3_avaliacao.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace gabrielpetillo_d3_avaliacao.Interfaces
 {
     /// <summary>
-    /// Interface com as operações básicas de manipulação de arquivo
+    /// User basic operations interface
     /// </summary>
     internal interface IUser
     {
-        User SearchByEmail();
-
-        void Create(User User);
-
-        void Update(User User);
-
-        void Delete(string idUser);
+        List<User> SearchAll();
+        //User SearchByEmail(string email);
+        bool Create(User User, string action);
+        bool Update(User User);
+        bool Delete(string idUser);
     }
 }
