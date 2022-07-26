@@ -38,7 +38,7 @@ namespace gabrielpetillo_d3_avaliacao
 
                         try
                         {
-                            if (user != null && user.Email == userEmail && user.Password == Encoding.Default.GetString(Encoding.UTF8.GetBytes(userPassword)))
+                            if (user != null && user.Email == userEmail && user.Password == userPassword)
                             {
                                 user.Create(user, "Logged in");
                                 AnsiConsole.Markup("\n[lime] Login realizado com sucesso [/]\n");
@@ -82,10 +82,17 @@ namespace gabrielpetillo_d3_avaliacao
                             }
 
                         }
+                        catch (System.IO.IOException)
+                        {
+                            Console.WriteLine("\n"+systemPrefix + " Feche o arquivo 'users.csv' antes de realizar o login\n");
+                            Thread.Sleep(2000);
+                            Console.Clear();
+                        }
                         catch (Exception e)
                         {
                             Console.WriteLine(systemPrefix + " Erro ao buscar usuário:\n " + e.ToString() + "\n");
-                            Console.Clear();
+                            Thread.Sleep(2000);
+                            //Console.Clear();
                         }
 
                     }
@@ -106,8 +113,7 @@ namespace gabrielpetillo_d3_avaliacao
                         Thread.Sleep(2000);
                         menuAction = "1";
                         Console.Clear();
-                    }
-                    else if (!createUser.Email.Contains('@'))
+                    } else if (!createUser.Email.Contains('@'))
                     {
                         AnsiConsole.Markup("\n[red] Insira um email válido [/]\n");
                         Thread.Sleep(2000);
@@ -120,8 +126,7 @@ namespace gabrielpetillo_d3_avaliacao
                         Thread.Sleep(2000);
                         menuAction = "1";
                         Console.Clear();
-                    }
-                    else if (userRepository.Create(createUser, "New User"))
+                    } else if (userRepository.Create(createUser,"New User"))
                     {
                         AnsiConsole.Markup("\n[lime] Usuário criado com sucesso [/]\n");
                         Thread.Sleep(2000);

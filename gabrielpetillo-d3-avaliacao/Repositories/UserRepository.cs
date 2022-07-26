@@ -24,7 +24,7 @@ namespace gabrielpetillo_d3_avaliacao.Repositories
 
             using (SqlConnection conn = new SqlConnection(dbConnnection))
             {
-                string querySearchAll = "SELECT IdUser, Name, Email, CONVERT(VARCHAR(1000), Password) AS Password  FROM Users";
+                string querySearchAll = "SELECT IdUser, Name, Email, Password  FROM Users";
 
                 conn.Open();
 
@@ -68,8 +68,7 @@ namespace gabrielpetillo_d3_avaliacao.Repositories
             using (SqlConnection conn = new SqlConnection(dbConnnection))
             {
                 string querySelectByEmail = "DECLARE @Email VARCHAR(255) = '" + userEmail + "' ;" +
-                    "SELECT IdUser, Name, Email, CONVERT(VARCHAR(1000), Password) AS Password  FROM Users WHERE Email = @Email;";
-
+                    "SELECT IdUser, Name, Email, Password  FROM Users WHERE Email = @Email;";
 
                 conn.Open();
 
@@ -109,7 +108,7 @@ namespace gabrielpetillo_d3_avaliacao.Repositories
             {
                 string queryInsert = "SET @IdUser = NEWID(); " +
                     "INSERT INTO Users (IdUser, Name, Email, Password) VALUES (@IdUser, @Name, @Email, @Password)";
-                user.Password = Encoding.Default.GetString(Encoding.UTF8.GetBytes(user.Password));
+                //user.Password = Encoding.Default.GetString(Encoding.UTF8.GetBytes(user.Password));
 
                 using (SqlCommand cmd = new SqlCommand(queryInsert, conn))
                 {
@@ -144,7 +143,7 @@ namespace gabrielpetillo_d3_avaliacao.Repositories
                     "+ SUBSTRING('" + user.IdUser + "', 17, 4) + '-' " +
                     "+ SUBSTRING('" + user.IdUser + "', 21, 12);" + 
                     "UPDATE Users SET Name = @Name, Email = @Email, Password = @Password WHERE IdUser = @IdUser";
-                user.Password = Encoding.Default.GetString(Encoding.UTF8.GetBytes(user.Password));
+                //user.Password = Encoding.Default.GetString(Encoding.UTF8.GetBytes(user.Password));
 
                 using (SqlCommand cmd = new SqlCommand(queryUpdateBody, conn))
                 {
